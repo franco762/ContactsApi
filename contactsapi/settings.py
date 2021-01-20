@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '0c=ab_^e$lx5u#vp9zv$6)%lh!j!us&=2c+#a9pa!#!ef)$yhu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -136,7 +136,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = Tru
+USE_TZ = True
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
